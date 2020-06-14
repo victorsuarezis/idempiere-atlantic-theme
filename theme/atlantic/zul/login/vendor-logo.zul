@@ -2,16 +2,17 @@
 <!--
 Copyright (C) 2009 Low Heng Sin
 Copyright (C) 2009 Idalica Corporation
+Copyright (C) 2020 Frontuari, C.A.
 -->
 <zk>
 
-<div class="page-title"
-	if="${desktop.execution.serverName.equals(&quot;127.0.0.1&quot;) or desktop.execution.serverName.startsWith(&quot;demo.&quot;) or desktop.execution.serverName.startsWith(&quot;test.&quot;) or desktop.execution.serverName.startsWith(&quot;experimental.&quot;)}">
+<div class="page-title">
 	<hbox align="center">
-		<label value="iDempiere Online Demonstration"/>
+		<a href="https://frontuari.net" target="_blank"><image src="/theme/atlantic/images/logo-login-frontuari.png"/></a>
+		<label value="ERP iDempiere LVE"/>
 	</hbox>
 </div>
-<div style="height: 90px" if="${! desktop.execution.serverName.equals(&quot;127.0.0.1&quot;) and ! desktop.execution.serverName.startsWith(&quot;demo.&quot;) and ! desktop.execution.serverName.startsWith(&quot;test.&quot;) and ! desktop.execution.serverName.startsWith(&quot;experimental.&quot;)}">
+<div style="height: 90px">
 	<space/>
 </div>
 
