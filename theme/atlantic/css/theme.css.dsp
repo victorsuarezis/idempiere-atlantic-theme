@@ -16,9 +16,9 @@
 
 <%-- login --%>
 .login-window {
-	background-color: #67BE5A !important;
+	background-color: #419ada !important;
 }
 
 .login-window .z-window-content {
-	background-color: #67BE5A !important;
+	background-color: #419ada !important;
 }
